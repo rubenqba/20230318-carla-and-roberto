@@ -474,6 +474,16 @@ body {
   justify-content: center;
 }
 
+/*LOCATION*/
+.location {
+  width: 100%;
+  min-height: 857.56px;
+  background: url(/assets/images/location.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*LOCATION*/
+
 /*FOOTER*/
 
 .footer {
