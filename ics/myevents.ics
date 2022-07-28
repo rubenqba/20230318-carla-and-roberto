@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:Boda de Carla & Roberto
+NAME:Boda de Carla & Roberto
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Mexico_City
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Mexico_City
+X-LIC-LOCATION:America/Mexico_City
+BEGIN:DAYLIGHT
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+DTSTART:19700405T020000
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220728T165224Z
+UID:1659026836223-32874@ical.marudot.com
+DTSTART;TZID=America/Mexico_City:20230318T070000
+DTEND;TZID=America/Mexico_City:20230318T170000
+SUMMARY:Boda de Carla & Roberto
+URL:https://goo.gl/maps/fwLV9AZ8Qk7oSmLF7
+DESCRIPTION:Te esperamos con toda la actitud para disfrutar de una noche especial donde todos gozaremos al máximo la alegría de compartir este sueño
+LOCATION:Ex Fabrica La Carolina | Av. Justo Sierra y Sierra del Ajusco # 1902\, Col. La Carolina\, Atlixco Puebla\, C.P. 74280
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Boda de Carla & Roberto
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
