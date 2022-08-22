@@ -388,6 +388,80 @@ body {
   opacity: 0;
 }
 
+/*Blog */
+
+.blog-title {
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 52px;
+}
+
+.blog-path {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: normal;
+  font-size: 29px;
+  text-align: center;
+  color: #ededed;
+  font-style: italic;
+  margin: 35px auto;
+}
+
+.blog-question {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #ededed;
+  margin: 0;
+}
+
+.blog-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  color: #ededed;
+  margin: 40px auto 20px auto;
+  max-width: 1005px;
+}
+
+.place-card {
+  background-color: #797249;
+  width: 350px;
+  border-radius: 6px;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 586px) {
+  .place-card {
+    width: 100%;
+  }
+}
+
+.place-card-small {
+  background-color: #797249;
+  padding: 10px;
+  text-align: center;
+  margin-top: 114px;
+}
+
+.place-small-text {
+  color: #fff;
+  font-size: 14px;
+}
+
+.place-card .title {
+  color: #fff;
+  margin: 10px 0;
+  font-size: 50px;
+  font-family: 'Mr De Haviland';
+}
+
 /*Frase*/
 .frase-section {
   width: 100%;
