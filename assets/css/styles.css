@@ -569,6 +569,13 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media screen and (max-width: 500px) {
+  .location {
+    min-height: 500px;
+    background-size: contain;
+  }
+}
 /*LOCATION*/
 
 /*FOOTER*/
@@ -610,20 +617,12 @@ body {
 }
 
 .footer .footer-title-logo {
-  display: none;
+  display: inline;
 }
 
 @media screen and (max-width: 500px) {
   .menu-container {
     width: 100%;
-  }
-
-  .footer .footer-title-name {
-    display: none;
-  }
-
-  .footer .footer-title-logo {
-    display: inline;
   }
 
   .footer .nav {
