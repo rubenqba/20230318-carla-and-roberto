@@ -567,6 +567,7 @@ body {
   background: url(/assets/images/location.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 /*LOCATION*/
 
@@ -606,6 +607,42 @@ body {
   text-align: left;
   color: #a78556;
   text-transform: uppercase;
+}
+
+.footer .footer-title-logo {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .menu-container {
+    width: 100%;
+  }
+
+  .footer .footer-title-name {
+    display: none;
+  }
+
+  .footer .footer-title-logo {
+    display: inline;
+  }
+
+  .footer .nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .footer .nav-link:first-child {
+    text-align: center;
+    border-top: 1px solid #666;
+  }
+
+  .footer .nav-link {
+    text-align: center;
+    border-bottom: 1px solid #666;
+    padding: 15px;
+  }
 }
 
 .splide__slide img {
