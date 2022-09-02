@@ -140,7 +140,7 @@ body {
   width: 100%;
   min-height: 1000px;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   padding-top: 100px;
 }
 
@@ -163,7 +163,7 @@ body {
   line-height: 37px;
   text-align: center;
   color: #9b9b9b;
-  margin: 0 auto;
+  margin: 35px auto;
 }
 
 .love-story .author {
@@ -635,9 +635,7 @@ body {
 
 .footer {
   width: 100%;
-  min-height: 200px;
-  margin-top: 66px;
-  margin-bottom: 66px;
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -673,6 +671,16 @@ body {
   display: inline;
 }
 
+.footer .bottom-line {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f0ed;
+  padding: 10px;
+  margin-top: 27px;
+}
+
 @media screen and (max-width: 500px) {
   .menu-container {
     width: 100%;
@@ -687,12 +695,10 @@ body {
 
   .footer .nav-link:first-child {
     text-align: center;
-    border-top: 1px solid #666;
   }
 
   .footer .nav-link {
     text-align: center;
-    border-bottom: 1px solid #666;
     padding: 15px;
   }
 }
