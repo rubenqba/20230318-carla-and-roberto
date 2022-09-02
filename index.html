@@ -492,6 +492,11 @@
           rewind: true,
           pagination: false,
           arrows: true,
+          breakpoints: {
+            500: {
+              arrows: false,
+            },
+          },
         });
 
         var thumbnails = new Splide('#thumbnail-carousel', {
@@ -502,9 +507,10 @@
           pagination: false,
           isNavigation: true,
           breakpoints: {
-            600: {
+            500: {
               fixedWidth: 60,
               fixedHeight: 44,
+              arrows: false,
             },
           },
         });
