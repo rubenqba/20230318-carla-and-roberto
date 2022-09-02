@@ -16,7 +16,7 @@ body {
 
 @media screen and (max-width: 586px) {
   .weeding-title {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
@@ -89,7 +89,7 @@ body {
 
 @media screen and (max-width: 1620px) {
   .banner-title-name {
-    font-size: 120px;
+    font-size: 81px;
   }
 }
 
@@ -99,7 +99,7 @@ body {
   }
 
   .banner-title-name {
-    font-size: 70px;
+    font-size: 60px;
   }
 }
 
@@ -245,6 +245,10 @@ body {
   .love-story .fiancee-img {
     width: 100%;
   }
+
+  .love-story .title {
+    font-size: 28px;
+  }
 }
 
 /*COUNTER*/
@@ -351,6 +355,20 @@ body {
   /* words */
 }
 
+@media screen and (max-width: 500px) {
+  .counter-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .counter-container .title {
+    font-size: 28px;
+  }
+
+  .counter-container .desc {
+    font-size: 18px;
+  }
+}
+
 /*Gallery*/
 .gallery-section {
   padding-top: 110px;
@@ -398,6 +416,12 @@ body {
 
 .animate-box {
   opacity: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .gallery-section .title {
+    font-size: 28px;
+  }
 }
 
 /*Blog */
@@ -505,6 +529,21 @@ body {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 500px) {
+  .frase-section {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .frase-section .title {
+    font-size: 28px;
+  }
+
+  .frase-section .desc {
+    font-size: 25px;
+  }
+}
+
 /*Location*/
 .location-section {
   padding-top: 111px;
@@ -534,6 +573,20 @@ body {
 
 .location-section img {
   margin-top: 90px;
+}
+
+@media screen and (max-width: 500px) {
+  .location-section .title {
+    font-size: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .location-section .desc {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 /*Invite Section*/
@@ -659,7 +712,7 @@ body {
 @media screen and (max-width: 500px) {
   #main-carousel .splide__slide img {
     width: 100%;
-    height: 500px;
+    height: auto;
     object-fit: contain;
   }
 }
