@@ -431,7 +431,7 @@ body {
   text-align: center;
   padding: 25px 0;
   font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
+  text-transform: uppercase;
   font-size: 48px;
   line-height: 52px;
 }
@@ -719,6 +719,7 @@ body {
   .splide {
     padding: 10px;
   }
+
   #main-carousel .splide__slide img {
     width: 100%;
     height: auto;
