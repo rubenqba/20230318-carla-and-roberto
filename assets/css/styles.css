@@ -1,57 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("./../fonts/linus_libertine/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+.ocultar {
+  visibility: hidden;
 }
 
 .caja {
   position: relative;
-  display: inline-block;  
+  display: inline-block;
 }
 
 .texto {
-  position: absolute; 
-  bottom: 7%;   
- /*  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);  */
+  position: absolute;
+  top: 10%;
   background-color: #ffffff;
-  opacity: 85%;  
-  width: auto; 
-  
-  right: 5%;  
-  border-radius: 22px;
-  padding: 10px 20px 10px 20px;
-  
-  font-size: 12px;
-  }
+  opacity: 85%;
+  width: 25%;
+  height: 80%;
 
+  right: 5%;
+  border-radius: 22px;
+  padding: 50px 30px 50px 30px;
+
+  font-family: "Linus Libertine";
+  /* font-size: 12px; */
+  text-size-adjust: auto;
+}
+
+.hand-cursive-text {
+  font-family: 'Comforter Brush', cursive;
+}
 
 @media screen and (max-width: 1100px) {
   .texto {
     font-size: 12px;
-    bottom: 3%; 
+    /* top: 3%; */
   }
 }
 
 @media screen and (max-width: 990px) {
   .texto {
-    font-size: 8px;  
-    bottom: 5%;  
+    font-size: 8px;
+    /* top: 5%; */
   }
 }
 
 @media screen and (max-width: 769px) {
   .texto {
-    font-size: 5.5px;  
-    bottom: 3%;  
+    font-size: 5.5px;
+    /* top: 3%; */
   }
 }
 
-
 .weeding-title {
-  font-family: 'Mr De Haviland';
+  font-family: "Mr De Haviland";
   font-weight: normal;
   font-size: 45px;
   letter-spacing: 0.12em;
@@ -95,7 +104,7 @@ body {
 .banner {
   width: 100%;
   min-height: 857.56px;
-  background: url(/assets/images/banner.jpg);
+  background: url(./assets/images/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 200px;
@@ -118,7 +127,7 @@ body {
 }
 
 .banner-title-name {
-  font-family: 'Mr De Haviland';
+  font-family: "Mr De Haviland";
   font-weight: normal;
   font-size: 100px;
   letter-spacing: 0.12em;
@@ -149,7 +158,7 @@ body {
 }
 
 .banner-title-desc {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 26px;
@@ -190,7 +199,7 @@ body {
 }
 
 .love-story .title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-size: 39px;
   letter-spacing: 0.11em;
@@ -201,7 +210,7 @@ body {
 
 .love-story .desc {
   max-width: 605px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-style: italic;
   font-size: 24px;
@@ -223,7 +232,7 @@ body {
 }
 
 .love-story .groom-name {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-size: 28px;
   letter-spacing: 0.11em;
@@ -241,7 +250,7 @@ body {
 }
 
 .love-story .fiancee-name {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-size: 28px;
   letter-spacing: 0.11em;
@@ -278,7 +287,7 @@ body {
 
 .love-story .text-desc {
   max-width: 303px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-size: 22px;
   line-height: 33px;
@@ -286,7 +295,6 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-
   .love-story .groom-img,
   .love-story .fiancee-img {
     width: 100%;
@@ -308,7 +316,7 @@ body {
 }
 
 .counter-container .title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-size: 39px;
   letter-spacing: 0.11em;
@@ -319,7 +327,7 @@ body {
 
 .counter-container .desc {
   max-width: 605px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-style: italic;
   font-size: 24px;
@@ -333,7 +341,7 @@ body {
   margin-bottom: 2em;
 }
 
-.simply-countdown>.simply-section {
+.simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
   width: 200px;
@@ -347,8 +355,8 @@ body {
   box-shadow: none;
 }
 
-.simply-countdown>.simply-section::before {
-  content: '';
+.simply-countdown > .simply-section::before {
+  content: "";
   width: 194px;
   height: 178px;
   border: 1px solid #e6ddd2;
@@ -371,7 +379,7 @@ body {
   }
 }
 
-.simply-countdown>.simply-section>div {
+.simply-countdown > .simply-section > div {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
@@ -379,8 +387,8 @@ body {
   height: 184px;
 }
 
-.simply-countdown>.simply-section .simply-amount,
-.simply-countdown>.simply-section .simply-word {
+.simply-countdown > .simply-section .simply-amount,
+.simply-countdown > .simply-section .simply-word {
   display: block;
   font-family: Inter;
   font-weight: normal;
@@ -390,12 +398,12 @@ body {
   /* amounts and words */
 }
 
-.simply-countdown>.simply-section .simply-amount {
+.simply-countdown > .simply-section .simply-amount {
   font-size: 30px;
   /* amounts */
 }
 
-.simply-countdown>.simply-section .simply-word {
+.simply-countdown > .simply-section .simply-word {
   font-family: Inter;
   font-weight: normal;
   color: #4d504a;
@@ -429,7 +437,7 @@ body {
 }
 
 .gallery-section .title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-size: 39px;
   letter-spacing: 0.11em;
@@ -440,7 +448,7 @@ body {
 
 .gallery-section .desc {
   max-width: 605px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-style: italic;
   font-size: 24px;
@@ -480,14 +488,14 @@ body {
   color: #fff;
   text-align: center;
   padding: 25px 0;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   text-transform: uppercase;
   font-size: 48px;
   line-height: 52px;
 }
 
 .blog-path {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-size: 29px;
   text-align: center;
@@ -497,7 +505,7 @@ body {
 }
 
 .blog-question {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-size: 18px;
   text-align: center;
@@ -506,7 +514,7 @@ body {
 }
 
 .blog-text {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-size: 24px;
   text-align: center;
@@ -545,7 +553,7 @@ body {
   color: #fff;
   margin: 10px 0;
   font-size: 50px;
-  font-family: 'Mr De Haviland';
+  font-family: "Mr De Haviland";
 }
 
 /*Frase*/
@@ -559,7 +567,7 @@ body {
 
 .frase-section .desc {
   max-width: 840px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-size: 35px;
   line-height: 52px;
@@ -600,7 +608,7 @@ body {
 }
 
 .location-section .title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-size: 39px;
   letter-spacing: 0.11em;
@@ -611,7 +619,7 @@ body {
 
 .location-section .desc {
   max-width: 605px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: normal;
   font-style: italic;
   font-size: 24px;
@@ -699,7 +707,7 @@ body {
 }
 
 .footer .footer-title-name {
-  font-family: 'Mr De Haviland';
+  font-family: "Mr De Haviland";
   font-weight: normal;
   font-size: 59px;
   letter-spacing: 0.12em;

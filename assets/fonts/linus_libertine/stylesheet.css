@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Linux Libertine';
+    src: url('LinLibertineZ.eot');
+    src: local('Linux Libertine Semibold'), local('LinLibertineZ'),
+        url('LinLibertineZ.eot?#iefix') format('embedded-opentype'),
+        url('LinLibertineZ.woff2') format('woff2'),
+        url('LinLibertineZ.woff') format('woff'),
+        url('LinLibertineZ.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Libertine';
+    src: url('LinLibertine.eot');
+    src: local('Linux Libertine'), local('LinLibertine'),
+        url('LinLibertine.eot?#iefix') format('embedded-opentype'),
+        url('LinLibertine.woff2') format('woff2'),
+        url('LinLibertine.woff') format('woff'),
+        url('LinLibertine.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Libertine';
+    src: url('LinLibertineI.eot');
+    src: local('Linux Libertine Italic'), local('LinLibertineI'),
+        url('LinLibertineI.eot?#iefix') format('embedded-opentype'),
+        url('LinLibertineI.woff2') format('woff2'),
+        url('LinLibertineI.woff') format('woff'),
+        url('LinLibertineI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Linux Libertine Mono';
+    src: url('LinLibertine_M.eot');
+    src: local('Linux Libertine Mono'), local('LinLibertine_M'),
+        url('LinLibertine_M.eot?#iefix') format('embedded-opentype'),
+        url('LinLibertine_M.woff2') format('woff2'),
+        url('LinLibertine_M.woff') format('woff'),
+        url('LinLibertine_M.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Libertine Initials';
+    src: url('LinLibertineI_1.eot');
+    src: local('Linux Libertine Initials'), local('LinLibertineI'),
+        url('LinLibertineI_1.eot?#iefix') format('embedded-opentype'),
+        url('LinLibertineI_1.woff2') format('woff2'),
+        url('LinLibertineI_1.woff') format('woff'),
+        url('LinLibertineI_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Libertine';
+    src: url('LinLibertineB.eot');
+    src: local('Linux Libertine Bold'), local('LinLibertineB'),
+        url('LinLibertineB.eot?#iefix') format('embedded-opentype'),
+        url('LinLibertineB.woff2') format('woff2'),
+        url('LinLibertineB.woff') format('woff'),
+        url('LinLibertineB.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Libertine';
+    src: url('LinLibertineZI.eot');
+    src: local('Linux Libertine Semibold Italic'), local('LinLibertineZI'),
+        url('LinLibertineZI.eot?#iefix') format('embedded-opentype'),
+        url('LinLibertineZI.woff2') format('woff2'),
+        url('LinLibertineZI.woff') format('woff'),
+        url('LinLibertineZI.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Linux Libertine Display';
+    src: url('LinLibertineDisplay.eot');
+    src: local('Linux Libertine Display'), local('LinLibertineDisplay'),
+        url('LinLibertineDisplay.eot?#iefix') format('embedded-opentype'),
+        url('LinLibertineDisplay.woff2') format('woff2'),
+        url('LinLibertineDisplay.woff') format('woff'),
+        url('LinLibertineDisplay.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Libertine';
+    src: url('LinLibertineBI.eot');
+    src: local('Linux Libertine Bold Italic'), local('LinLibertineBI'),
+        url('LinLibertineBI.eot?#iefix') format('embedded-opentype'),
+        url('LinLibertineBI.woff2') format('woff2'),
+        url('LinLibertineBI.woff') format('woff'),
+        url('LinLibertineBI.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
